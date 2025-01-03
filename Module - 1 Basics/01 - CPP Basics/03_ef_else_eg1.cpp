@@ -17,6 +17,8 @@ int main(){
     cout << "ENter your total percentage : ";
     cin >> total_percentage;
 
+    // # 1st way
+
     // if (total_percentage >= 80)
     // {
     //     cout << "Grade 'A' " << endl;
@@ -42,6 +44,8 @@ int main(){
     //     cout << "Grade 'F' " << endl;
     // }
 
+    // 2nd way
+
     if (total_percentage < 25)
     {
         cout << "Grade 'F' " << endl;
@@ -63,6 +67,33 @@ int main(){
         cout << "Grade 'B' " << endl;
     }
     else if (total_percentage >= 80 && total_percentage <= 100)
+    {
+        cout << "Grade 'A' " << endl;
+    }
+   
+   // 3rd way
+   
+    if (total_percentage < 25)
+    {
+        cout << "Grade 'F' " << endl;
+    }
+    else if (total_percentage <= 44)
+    {
+        cout << "Grade 'E' " << endl;
+    }
+    else if (total_percentage <= 49)
+    {
+        cout << "Grade 'D' " << endl;
+    }
+    else if (total_percentage <= 59)
+    {
+        cout << "Grade 'C' " << endl;
+    }
+    else if (total_percentage <= 79)
+    {
+        cout << "Grade 'B' " << endl;
+    }
+    else if (total_percentage <= 100)
     {
         cout << "Grade 'A' " << endl;
     }
