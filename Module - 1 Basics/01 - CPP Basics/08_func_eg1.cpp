@@ -15,10 +15,11 @@ void add(int x, int y){
 }
 
 int main(){
-    int num1, num2, sum;
+    int num1, num2;
+    // int sum;
 
-    cin >> num1 >> num2 ;
-    sum = num1 + num2;
+    // cin >> num1 >> num2 ;
+    // sum = num1 + num2;
 
     // int res = add(num1, num2);
     // cout << res << endl;
