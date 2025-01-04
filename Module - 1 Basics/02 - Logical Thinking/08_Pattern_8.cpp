@@ -1,23 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printPattern7(int r){
+void printPattern8(int r){
     for (int i = 0; i < r; i++)
     {
         // space
-        for (int j = 0; j < r-i-1 ; j++)
+        for (int j = 0; j < i ; j++)
         {
             cout << " ";
         }
 
         // star
-        for (int k = 0; k < 2*i+1; k++)
+        for (int k = 0; k < 2*r-(2*i +1); k++)
         {
-            cout << " *";
+            cout << "*";
         }
 
         // space
-        for (int l = 0; l < r - i - 1; l++)
+        for (int l = 0; l < i; l++)
         {
             cout << " ";
         }
@@ -34,7 +34,7 @@ int main(){
     for (int i = 0; i < t; i++){
         int n;
         cin >> n;
-        printPattern7(n);
+        printPattern8(n);
     }
 
     return 0;
