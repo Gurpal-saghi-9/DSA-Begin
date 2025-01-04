@@ -1,19 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int rows;
-    cout << "Enter number of rows: ";
-    cin >> rows;
-
-    for (int i = 0; i < rows; i++)
+void printPattern1(int r){
+    for (int i = 0; i < r; i++)
     {
-        for (int j = 0; j < rows; j++)
+        for (int j = 0; j < r; j++)
         {
             cout << "* ";
         }
         cout << endl;
     }
+}
+
+int main(){
+    int t;
+    cin >> t;
+
+    for (int i = 0; i < t; i++){
+        int n;
+        cin >> n;
+        printPattern1(n);
+    }
+
     return 0;
     
 }
