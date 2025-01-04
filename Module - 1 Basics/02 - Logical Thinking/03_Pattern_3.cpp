@@ -3,7 +3,7 @@ using namespace std;
 
 void printPattern3(int r){
     // This is the outer loop which will loop for the rows.
-    for (int i = 0; i <= r; i++)
+    for (int i = 1; i <= r; i++)
     {
         // This is the inner loop which loops for the columns
        // no. of columns = row number for each line here.
