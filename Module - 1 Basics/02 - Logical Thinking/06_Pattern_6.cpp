@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printPattern4(int r){
-    for (int i = 1; i <= r; i++)
+void printPattern3(int r){
+    for (int i = 0; i < r; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = r; j > i; j--)
         {
-            cout << i << " ";
+            cout <<"* ";
         }
         
         cout << endl;
@@ -20,7 +20,7 @@ int main(){
     for (int i = 0; i < t; i++){
         int n;
         cin >> n;
-        printPattern4(n);
+        printPattern3(n);
     }
 
     return 0;
