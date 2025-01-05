@@ -1,19 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printPattern9(int n){
+void printPattern21(int n){
+    
     
 }
 
 int main(){
-    int t;
-    cin >> t;
-
-    for (int i = 0; i < t; i++){
         int n;
         cin >> n;
-        printPattern9(n);
-    }
+        printPattern21(n);
 
     return 0;
     
