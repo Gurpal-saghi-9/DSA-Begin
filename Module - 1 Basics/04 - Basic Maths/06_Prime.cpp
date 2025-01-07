@@ -27,7 +27,7 @@ void optimal(int n){
         if (n % i == 0){
             count += 1;
             if(n / i != i){
-                count += count;
+                count += 1;
             }
         }
     }
