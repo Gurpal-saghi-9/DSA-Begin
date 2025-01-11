@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> // instead of typing again again #include and library we can use this all is one library
+#include <bits/stdc++.h> 
 
 using namespace std;
 
