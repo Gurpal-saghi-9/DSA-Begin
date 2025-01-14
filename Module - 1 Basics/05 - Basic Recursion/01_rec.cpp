@@ -1,9 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int cnt = 0;
+
 void func(){
-    cout << "1";
-    func();
+    // Base Condition.
+   if(cnt == 3)  return;
+   cout<<cnt<<endl;
+
+   // Count Incremented
+   cnt++;
+   func();
 }
 
 int main(){
