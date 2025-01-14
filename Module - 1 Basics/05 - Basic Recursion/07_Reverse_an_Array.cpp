@@ -64,13 +64,13 @@ int main() {
 
     cout << endl;
 
-    cout << "Do you want to sort the array before reversing? (1 for Yes, 0 for No): ";
-    int sortChoice;
-    cin >> sortChoice;
+    // cout << "Do you want to sort the array before reversing? (1 for Yes, 0 for No): ";
+    // int sortChoice;
+    // cin >> sortChoice;
 
-    if (sortChoice == 1) {
-        sortArray(arr, n);
-    }
+    // if (sortChoice == 1) {
+    //     sortArray(arr, n);
+    // }
 
     cout << "Choose a method to reverse the array:" << endl;
     cout << "1. Using Auxiliary Array" << endl;
